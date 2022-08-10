@@ -30,10 +30,10 @@ function DeleteType() {
 	});
 	const { data, loading, error } = useQuery(TYPE_LIST);
 
-	const [types, setType] = useState(data?.types);
+	const [types, setType] = useState(data?.marketTypes);
 
 	useEffect(() => {
-		setType(data?.types);
+		setType(data?.marketTypes);
 	}, [data]);
 
 	const handleDelete = (e) => {

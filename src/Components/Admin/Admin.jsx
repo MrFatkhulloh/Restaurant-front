@@ -36,7 +36,7 @@ function Order() {
 								<Link to={'deleteCategory'}>Delete a category</Link>
 							</li>
 							<li>
-								<Link to={'/deleteBrand'}>Delete a brand</Link>
+								<Link to={'deleteBrand'}>Delete a brand</Link>
 							</li>
 							<li>
 								<Link to={'deleteProduct'}>Delete a product</Link>
