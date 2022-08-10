@@ -1,7 +1,9 @@
 import { Link, Route, Routes } from "react-router-dom";
 import "./Admin.css"
 import AdminHome from "./AdminHome/AdminHome";
+import DeleteBrand from "./DeleteBrand/DeleteBrand";
 import DeleteProduct from "./DeleteProduct/DeleteProduct";
+import DeleteType from "./DeleteType/DeleteType";
 import NewBrand from "./NewBrand/NewBrand";
 import NewMarketType from "./NewMarketType/NewMarketType";
 import NewProduct from "./NewProduct/NewProduct";
@@ -31,10 +33,10 @@ function Order() {
 								<Link to={'newProduct'}>Add a new product</Link>
 							</li>
 							<li>
-								<Link to={'#'}>Delete a category</Link>
+								<Link to={'deleteCategory'}>Delete a category</Link>
 							</li>
 							<li>
-								<Link to={'#'}>Delete a brand</Link>
+								<Link to={'/deleteBrand'}>Delete a brand</Link>
 							</li>
 							<li>
 								<Link to={'deleteProduct'}>Delete a product</Link>
@@ -52,6 +54,8 @@ function Order() {
 						<Route path="/newBrand" element={<NewBrand/>} />		
 						<Route path="/newProduct" element={<NewProduct/>} />		
 						<Route path="/deleteProduct" element={<DeleteProduct/>} />		
+						<Route path="/deleteCategory" element={<DeleteType/>} />	
+						<Route path="/deleteBrand" element={<DeleteBrand/>} />	
 					</Routes>
 					
 				</div>
