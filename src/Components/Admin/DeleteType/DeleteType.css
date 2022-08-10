@@ -1,0 +1,14 @@
+.delete-btn {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background-color: rgb(212, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.deleting-type {
+    position: relative;
+}
