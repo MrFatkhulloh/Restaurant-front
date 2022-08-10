@@ -7,7 +7,7 @@ function App() {
 
 	return <div className="App">
     <Routes>
-      <Route path={"/*"} element={<Navigate to={"/Home"}/>}/>
+      <Route path={"/"} element={<Navigate to={"/Home"}/>}/>
       <Route path="/Home/*" element={<Home/>} />
       <Route path="/Admin/*" element={<Admin/>} />
     </Routes>
