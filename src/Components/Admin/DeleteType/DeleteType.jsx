@@ -1,6 +1,6 @@
 import { gql, useMutation, useQuery } from "@apollo/client";
 import { useEffect, useState } from "react";
-import "./deleteType.css";
+import "./DeleteType.css";
 
 const TYPE_LIST = gql`
 	query {
