@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import basket from "../../../assets/basket.svg";
+import './Header.css'
 
 
 function HomeHeader({data}) {
@@ -28,6 +29,8 @@ function HomeHeader({data}) {
 										</option>
 									))}
 							</select>
+
+							<NavLink to={'/admin'} className="admin-link">Admin</NavLink>
 						</div>
 					</div>
 					<div className="header-right">

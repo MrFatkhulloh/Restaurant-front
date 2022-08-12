@@ -1,0 +1,10 @@
+.header-option-wrapper {
+    position: relative;
+}
+
+.admin-link {
+    position: absolute;
+    right: -110px;
+    top: 0;
+    color: beige;
+}

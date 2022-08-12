@@ -1,0 +1,10 @@
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.login-form input {
+    display: block;
+}
