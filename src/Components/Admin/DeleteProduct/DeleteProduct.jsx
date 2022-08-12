@@ -28,7 +28,7 @@ function DeleteProduct() {
 
     const [deleteProduct] = useMutation(DELETE_PRODUCT, {
         update: (cache, data) => {
-            console.log(data)
+            setProduct(data?.products)
         }
     })
 	const { data, loading, error } = useQuery(PRODUCT_LIST);
