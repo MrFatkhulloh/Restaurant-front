@@ -12,7 +12,6 @@ const marketTypes = gql`
 		marketTypes {
 			id
 			name
-			title
 			img_url
 		}
 	}
