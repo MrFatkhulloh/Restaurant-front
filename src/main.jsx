@@ -18,8 +18,8 @@ import { Provider as AuthProvider } from "./Context/Authentication";
 // });
 
 const httpLink = createHttpLink({
-	uri: "http://localhost:9090/graphql",
-	// uri: "https://exam-restaurant.herokuapp.com/graphql",
+	// uri: "http://localhost:9090/graphql",
+	uri: "https://exam-restaurant.herokuapp.com/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
