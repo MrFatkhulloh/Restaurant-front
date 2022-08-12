@@ -7,4 +7,7 @@
     right: -110px;
     top: 0;
     color: beige;
+    background-color: dimgray;
+    padding: 5px;
+    border-radius: 5px;
 }
